@@ -14,6 +14,8 @@ It runs without any API key using a hashing-based embedder and an extractive
 answerer, which is handy for trying things out and for tests. Swap in OpenAI
 embeddings/chat through the optional extra when you want real semantic search.
 
+![Grounded answers with citations](docs/example.png)
+
 ## Run it
 
 ```bash
