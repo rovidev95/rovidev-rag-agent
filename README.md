@@ -1,5 +1,9 @@
 # rag-agent
 
+[![CI](https://github.com/rovidev95/rovidev-rag-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/rovidev95/rovidev-rag-agent/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+![Python](https://img.shields.io/badge/Python-3.11+-3776ab)
+
 A small retrieval-augmented generation service. Answers are built from your own
 documents and come back with inline `[n]` citations pointing at the source
 passage. If nothing relevant is found it says so instead of making something up.
@@ -82,6 +86,11 @@ so pgvector/Qdrant and a real embedding model drop in without touching `rag.py`.
 pytest -q
 ruff check .
 ```
+
+## Custom work
+
+Want a RAG/LLM feature built on your own data and infrastructure?
+Get in touch at [rovidev.com](https://rovidev.com).
 
 ## License
 
