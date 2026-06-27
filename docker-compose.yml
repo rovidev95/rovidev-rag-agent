@@ -1,0 +1,9 @@
+services:
+  rag:
+    build: .
+    restart: unless-stopped
+    environment:
+      RAG_BACKEND: ${RAG_BACKEND:-offline}
+      RAG_OPENAI_API_KEY: ${RAG_OPENAI_API_KEY:-}
+    ports:
+      - "8000:8000"
