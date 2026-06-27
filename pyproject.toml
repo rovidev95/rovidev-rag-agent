@@ -26,7 +26,7 @@ dev = [
 
 [project.urls]
 Homepage = "https://rovidev.com"
-Repository = "https://github.com/RoviDev/rovidev-rag-agent"
+Repository = "https://github.com/rovidev95/rovidev-rag-agent"
 
 [build-system]
 requires = ["setuptools>=68"]

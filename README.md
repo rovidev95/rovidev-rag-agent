@@ -4,6 +4,8 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 ![Python](https://img.shields.io/badge/Python-3.11+-3776ab)
 
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/rovidev95/rovidev-rag-agent)
+
 A small retrieval-augmented generation service. Answers are built from your own
 documents and come back with inline `[n]` citations pointing at the source
 passage. If nothing relevant is found it says so instead of making something up.
